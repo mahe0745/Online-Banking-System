@@ -189,11 +189,7 @@ public class FrontController extends HttpServlet {
 			rd.forward(request, response);
 		}
 		
-		if(request.getRequestURI().endsWith("logout")) {
-			System.out.println("in logout");
-			RequestDispatcher rd = request.getRequestDispatcher("../index.html");
-			rd.forward(request, response);
-		}
+		
 
 	}
 }
