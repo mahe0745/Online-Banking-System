@@ -2,10 +2,8 @@
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="java.sql.SQLException" %>
 <%@ page import="java.sql.Timestamp" %>
-<%@ page import="java.util.ArrayList" %>
-<%@ page import="java.util.List" %>
-<%@ page import="java.util.Map" %>
-<%@ page import="java.util.HashMap" %>
+
+
 
 <%
     ResultSet resultSet = (ResultSet) request.getAttribute("resultSet");
