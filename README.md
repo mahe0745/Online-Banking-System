@@ -1,10 +1,10 @@
 **Online Banking System**
 
-Overview
+**Overview**
 
 This online banking system is a web application developed using Java Servlets and JDBC for database operations. It follows a layered architecture with a controller layer, service layer, and DAO layer, ensuring a clean separation of concerns and easy maintainability.
 
-Features
+**Features**
 
 User Account Management: Users can create an account, log in, and manage their account details.
 
@@ -16,7 +16,7 @@ PIN Management: Users can manage their transaction PINs for added security.
 
 Balance Inquiry: Users can check their account balance at any time.
 
-Implementation Details
+**Implementation Details**
 
 Controller Layer: The front controller handles incoming requests and dispatches them to appropriate servlets.
 
@@ -30,7 +30,7 @@ Properties File: Manages database credentials for secure database access.
 
 User Authentication Filter: Validates user credentials using regex for mobile and email formats.
 
-Usage
+**Usage**
 
 Access the application through a web browser.
 
@@ -38,7 +38,7 @@ Register for an account if you are a new user, or log in with your credentials.
 
 Use the provided functionalities to manage your account, transfer funds, and view transaction history.
 
-Technologies Used
+**Technologies Used**
 
 Java Servlets
 
